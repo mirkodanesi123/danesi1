@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, groupMetadata}) => {
        let warn = global.db.data.users[who].warn
        if (warn > 0) {
          global.db.data.users[who].warn -= 1
-         m.reply(`👌`)
+         m.reply(`👌 1 warn rimosso`)
          } else if (warn == 0) {
             return
         }
