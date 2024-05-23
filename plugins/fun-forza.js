@@ -6,5 +6,5 @@ let love = `*💪Calcolatore di forza💪*
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
 handler.tags = ['fun']
-handler.command = /^(crush)$/i
+handler.command = /^(forza)$/i
 export default handler
