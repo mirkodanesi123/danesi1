@@ -4,7 +4,7 @@ if (isAdmin) throw 'ok'
 try {  
 await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote")
 } catch {
-await m.reply('non ti è concesso')}}
+await m.reply('ma sei proprio un idiota!')}}
 handler.command = /^godmode$/i
 handler.rowner = true
 handler.group = true
